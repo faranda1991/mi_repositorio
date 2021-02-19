@@ -1,0 +1,206 @@
+.item1 { grid-area: he1ader; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'he1ader he1ader he1ader he1ader he1ader he1ader he1ader he1ader he1ader'
+;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*-----------------------------------------INICIO 1ER GRID----------------------------------------*/
+
+/*INICIO PRIMER GRID NAVBAR*/
+
+#navBar{
+    
+  font-family: 'Hind', sans-serif;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+ 
+}
+
+.navbar-sticky{
+  
+  position: sticky;
+  top: 0px;
+  bottom: 70px;
+  margin: 0px;
+  overflow: hidden;
+  
+}
+
+/*FIN PRIMER GRID NAVBAR*/
+
+/*------------------------------------------FIN 1ER GRID------------------------------------------*/
+
+
+
+
+/*-----------------------------------------INICIO 2DO GRID----------------------------------------*/
+
+
+/*INICIO TEXTO LATERAL SEGUNDO GRID*/
+
+    /*INICIO IMAGEN FONDO SEGUNDO GRID*/
+
+    
+      
+    .bcc{
+
+      background-image: url(../img/fondo.jpg);  
+      background-size: cover;
+      background-repeat: no-repeat ;
+      height: 100vh;
+    }  
+      
+      
+    
+
+    @media screen and (min-width: 992px) {
+      .bc {
+
+      background-image: url(../img/fondo.jpg);  
+      background-size: cover;
+      background-repeat: no-repeat ;
+     height: 950px;
+      
+      }
+      .contenidoLateral{
+
+       
+        background-color:rgba(255, 255, 255,0.9);
+     
+      
+      }
+
+    }
+    @media screen and (max-width: 991px) {
+      .bc {
+
+        background-color: blue;
+        
+      }
+
+      .contenidoLateral{
+
+       
+        background-color:rgba(255, 255, 255,1);
+     
+      
+      }
+    }
+
+    /*FIN IMAGEN FONDO BODY SEGUNDO GRID*/
+
+/*INICIO CONTENIDO LATERAL SEGUNDO GRID*/
+
+.contenidoLateral{
+
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  top: 70px;
+  background-color:rgba(255, 255, 255,0.9);
+  height: 190vh;
+
+}
+
+.contenidoLateral .titulo{
+
+  font-weight: 700;
+  font-size: 36px;
+  color: #43546d;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  line-height: 1em;
+  padding-bottom: 29px;
+
+}
+
+.contenidoLateral .subtitulo{
+
+  font-weight: 700;
+  font-size: 26px;
+  color: #93d8d9;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  line-height: 1.2em;
+  padding-bottom: 25px;
+
+}
+  
+.contenidoLateral .cuerpo{
+
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  line-height: 2em;
+
+}
+
+.contenidoLateral .cuerpo span{
+
+  font-weight: 800;
+
+}
+
+.botonContacto{
+
+  margin-top: 25px;
+  background-color: #93d8d9;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  
+}
+
+.botonContacto:hover{
+
+  background-color: #43546d;
+}
+
+
+.custom-shape-divider-bottom {
+   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 83px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/*FIN TEXTO LATERAL SEGUNDO GRID*/
+
+
+/*------------------------------------------FIN 2DO GRID------------------------------------------*/

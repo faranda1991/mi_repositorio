@@ -1,0 +1,32 @@
+#navBar{
+    
+    font-family: 'Hind', sans-serif;
+    background-color: rgb(255, 0, 0);
+    
+}
+
+.navbar-sticky{
+    
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+.content{
+    
+    background-image: url(../img/fondo.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 100vh;
+    
+}
+
+.lateralText{
+    background-color:white;
+    opacity: 90%;
+    height: 100vh;
+    align-content: center;
+    }
+    
